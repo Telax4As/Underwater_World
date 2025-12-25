@@ -1,47 +1,40 @@
+/*   INDEX.HTML   */ 
+
 body{
 	margin: 0;
-	display: flex;
-    flex-direction: column;
 }
 
-.title{
+header{
 	text-align: center;
-	font-size: 30px;
-	margin: 5px 0 5px 0;
-}
-
-.topmenu{
-	justify-content: center;
-	text-align: center;
-	display: flex;
 	background-color: rgb(121, 145, 253);
-	height: 50px;
     background: rgb(44,118,207);
     background: radial-gradient(circle, rgba(44,118,207,1) 0%, rgba(121,168,223,1) 50%, rgba(124,183,255,1) 100%);
     font-family: 'Arial Black', Gadget, sans-serif;
     font-weight: bold;
+    font-size: 25px;
+    padding: 1%;
     color: rgb(255, 255, 255);
 }
 
-.mainpage{
+main{
 	background-color: lightblue;
 	display: flex;
     flex-direction: column;
-	height: 900px;
+	height: 88%;
 }
 
 .MajorityOfCards{
-    margin: 0 10px;
+    margin-top: 30px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	height: 500px;
+	height: 60%;
 }
 
 .card1, .card2, .card3, .card4{
-    border-radius: 50px;
-    width: 10%;
-    height: 90%;
+    border-radius: 40px;
+    width: 23%;
+    height: 95%;
     background-size: cover;
     background-position: center;
     transition: width 0.5s ease-in-out;
@@ -92,19 +85,27 @@ body{
     transform: scale(1.05);
 }
 
-.mainpage2{
+aside{
     display: flex;
-    margin-top: 30px;
+    margin-top: 10px;
     justify-content: center;
     align-items: center;
     text-align: center;
-}
-
-.bottomInfo{
     font-family: 'Arial Black', Gadget, sans-serif;
     font-weight: bold;
-    width: 70%;
+    padding: 0 15% 0 15%;
 }
+
+footer{
+    background-color: #c1c3c5;
+    height: auto;
+    padding: 7px 0 7px 10px;
+}
+
+
+
+
+/*   SHARK.HTML   */
 
 .SharkCards{
     display: flex;
